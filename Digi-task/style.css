@@ -1,0 +1,190 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+.logo-text{
+    position: absolute;
+    top: 20px;
+}
+.search{
+    margin-left: 380px;
+    margin-top: 30px;
+}
+.mic-icon{
+    position: absolute;
+    top: 35px;
+    left: 870px;
+}
+/*
+.search-icon{
+    position: absolute;
+    top: 36px;
+    left: 510px;
+}
+*/
+.search input{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 400px;
+    outline: none;
+}
+.wallet p{
+    margin-top: 35px;
+    margin-left: 320px;
+}
+.upload{
+    text-align: center;
+}
+.upload a{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+.upload p::after{
+    content: url(cloud.png);
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 10px;
+}
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links{
+    gap: 20px;
+    display: flex;
+    margin-top: 30px;
+    margin-left: 965px;
+}
+.notify::after{
+    content: url(notification-icon.png);
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 4px;
+    margin-top: -13px;
+}
+.message::after{
+    content: url(message-icon.png);
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 3px;
+}
+.background{
+    margin-top: 10px;
+    margin-left: 430px;
+}
+.background img{
+    width: 918px;
+    height: 768px;
+    background-size: cover;
+}
+.side-nav{
+    position: absolute;
+    top: 170px;
+    margin-left: 40px;
+    display: flex;
+    gap:30px;
+}
+
+.side-nav img{
+    text-align: center;
+}
+.repeat{
+    margin-top: 230px;
+}
+.feedback{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.side-content2{
+    margin-top: 78px;
+}
+.live::before{
+    content: url(live.png);
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+.follow::before{
+    content: url(people.png);
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+.for-you::before{
+    content: url(home2.png);
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+.side-content2 hr{
+    width: 290px;
+    border: 1px solid rgb(95, 94, 94);
+}
+.side-content2 img{
+    width: 50px;
+    height: 50px;
+    border-radius: 300px;
+}
+.text2{
+    margin-top: -65px;
+    margin-left: 70px;
+    
+}
+.text2 .smart{
+    margin-top: -12px;
+}
+.text3{
+    margin-top: -65px;
+    margin-left: 70px;
+}
+.follow2{
+    margin-top: 115px;
+    margin-bottom: 20px;
+}
+.pop{
+    margin-top: -10px;
+}
+.content3{
+    margin-top: 30px;
+}
+.side-icon{
+    position: absolute;
+    left: 1260px;
+    top: 500px;
+}
+.side-icon .img{
+    width: 60px;
+    height: 60px;
+    border-radius: 300px;
+}
+.mind-right{
+    position: absolute;
+    color: white;
+    top: 830px;
+    left: 500px;
+}
+.music::before{
+    content: url(music.png);
+    vertical-align: middle;
+    display: inline-block;
+    margin-right: 10px;
+}
+.love-text{
+    margin-top: 15px;
+}
+.love-text p{
+    color: white;
+    text-align: center;
+    margin-top: 2px;
+}
+.love-text img{
+    transform: scale(.8);
+}
